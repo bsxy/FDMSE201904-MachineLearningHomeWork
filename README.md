@@ -1,2 +1,2 @@
 # FDMSE201904-MachineLearningHomeWork
-FDMSE201904-机器学习家庭作业
+FDMSE201904-机器学习课程作业
