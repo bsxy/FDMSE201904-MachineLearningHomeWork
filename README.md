@@ -1,7 +1,7 @@
 # FDMSE201904-MachineLearningHomeWork
 FDMSE201904-机器学习课程作业
 
-# plan
+# 计划
 - 11.30 app原型/视频剧本/论文大纲/ppt大纲
 
 # 分工
