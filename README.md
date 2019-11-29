@@ -5,10 +5,10 @@ FDMSE201904-机器学习课程作业
 - 11.30 app原型/视频剧本/论文大纲/ppt大纲
 
 # 分工
-- amber 故事策划/PPT/课堂汇报
-- brady code/app原型/相关的流程和说明文档
-- tjl   视频录制和后期处理
-- panda word论文
+- Amber: 故事策划/PPT/课堂汇报
+- Brady: Code/App原型/相关的流程和说明文档
+- Tjl:   视频录制和后期处理
+- Panda: Word论文
 
 # 进度
 
