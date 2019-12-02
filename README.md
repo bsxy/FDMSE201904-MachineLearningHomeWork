@@ -22,4 +22,5 @@ FDMSE201904-机器学习课程作业
 - [ ] ubuntu下模型转为手机可用的lite模型 进行中
 - [x] 以tensorflow/example中的posnet例程为基础，根据故事原型调整appUI
 - [x] app1.0版本已上传
+- [x] app1.1版本已上传（加入了姿态判断算法）
 
