@@ -1,0 +1,18 @@
+﻿在Google的样例工程之上，所有代码修改集中在PosnetActivity.kt文件中
+
+添加的函数：
+ private fun readCelue(): ArrayList<IntArray>
+ 从策略文件中读取策略矩阵数据到二维数组
+ private fun judgeState(person:Person,rule_mt:ArrayList<IntArray>) : BodyState
+ 根据策略判断当前姿态
+ private fun calcBearing(s:Position,e:Position):Int
+ 已知两点，计算方位角（以x轴正向为起始边，逆时针旋转的角度，范围[0-360)）
+
+修改的函数
+  private fun draw(canvas: Canvas, person: Person, bitmap: Bitmap) 
+  在绘制函数内加入了绘制keypoint名称和坐标的功能
+
+算法流程说明：
+- 启动后读取策略矩阵csv文件到变量m_celues，执行1次
+- 在每一帧的draw函数中，遍历keypoint，两两计算方位角，与策略表比对，正负超出30度认为异常
+- 策略表见celue-data.xlsx
